@@ -35,7 +35,8 @@ function cpfValid(number){
 }
 function validate(){
     console.log("Efetuando validação...")
-
+    document.getElementById("success").style.display = "none";
+    document.getElementById("fail").style.display = "none";
     var cpfNumber = document.getElementById("cpf-number").value;
     var validateResult = cpfValid(cpfNumber);
 
