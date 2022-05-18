@@ -1,0 +1,11 @@
+header{
+    text-align: center;
+    padding: 1em;
+    color: rgb(255,255,255);
+}
+.input-group {
+    padding: 0em 5em; 
+}
+.alerts{
+    padding: 1em 5em;
+}
